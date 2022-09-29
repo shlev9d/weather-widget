@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.logo {
+	img {
+		width: 40px;
+	}
+}
+
+.logoTheme {
+	img {
+		width: 30px;
+	}
+}
+
+.title {
+	font-weight: var(--fw-bold);
+	font-size: var(--fs-md);
+	color: var(--color-primary);
+}

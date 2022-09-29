@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.otherDays{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  background: var(--color-bg-el);
+  border-radius:var(--radius);
+  box-shadow: var(--shadow);
+  padding: 20px;
+}

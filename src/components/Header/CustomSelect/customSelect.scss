@@ -1,0 +1,47 @@
+@import '../../../styles/variables.scss';
+
+.customSelect {
+	&__control,
+	&__menu {
+		border-radius: var(--radius) !important;
+		border: none !important;
+		width: 160px;
+		color: var(--color-primary) !important;
+		box-shadow: var(--shadow);
+	}
+
+  &__control{
+    		background: var(--color-card) !important;
+    &--is-focused{
+      box-shadow: var(--shadow-hover)!important;
+    }
+  }
+
+	&__menu {
+		background: var(--color-bg-el) !important;
+		z-index: 10 !important;
+  
+	}
+
+	&__single-value,
+	&__dropdown-indicator {
+		color: var(--color-primary) !important;
+	}
+
+	&__single-value {
+		font-weight: var(--fw-bold);
+	}
+
+  &__indicator-separator{
+    display: none;
+  }
+
+  &__option{
+
+    &--is-selected{
+      background: transparent !important;
+      color: var(--color-text) !important;
+    }
+  }
+
+}

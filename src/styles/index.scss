@@ -1,0 +1,21 @@
+@import '~normalize.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Nunito:wght@300;400;500;600;800;900&display=swap');
+
+* {
+  outline: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  user-select: none;
+}
+
+.container{
+  width: 100%;
+  max-width:700px;
+  margin: auto ;
+  padding-top: 20px;
+}
+
+
+
+

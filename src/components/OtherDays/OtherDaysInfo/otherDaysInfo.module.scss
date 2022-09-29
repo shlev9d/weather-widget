@@ -1,0 +1,46 @@
+@import '../../../styles/variables.scss';
+
+.otherDaysInfo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: var(--color-card);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+	padding: 10px;
+	width: 160px;
+	cursor: pointer;
+	transition: 0.3s;
+
+	.day,
+	.tempDay {
+		font-size: 18px;
+		color: var(--color-primary);
+	}
+
+	.tempDay{
+		margin-bottom: 5px;
+	}
+
+	.wind,
+	.precipitation {
+		font-size: 14px;
+		color: var(--color-text);
+	}
+	.icon {
+		img {
+			width: 30px;
+			margin: 10px 0;
+		}
+	}
+
+	.info {
+		margin-top: 10px;
+		font-size: 14px;
+		color: var(--color-base);
+	}
+
+	&:hover {
+		box-shadow: var(--shadow-hover);
+	}
+}

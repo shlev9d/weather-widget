@@ -1,0 +1,32 @@
+@import '../../../../styles/variables.scss';
+
+.item {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 5px;
+	z-index: 3;
+	.icon {
+		background: var(--color-card);
+		padding: 10px;
+		border-radius: 50%;
+		width: 35px;
+		height: 35px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+    box-shadow: var(--shadow);
+	}
+	img {
+		width: 20px;
+	}
+	span {
+		font-size: var(--fs-sm);
+		color: var(--color-base);
+	}
+	b {
+		font-size: var(--fs-sm);
+		color: var(--color-text);
+	}
+}

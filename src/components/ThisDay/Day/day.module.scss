@@ -1,0 +1,47 @@
+@import '../../../styles/variables.scss';
+
+.day {
+	padding: 20px;
+	max-width: 230px;
+	width: 100%;
+	background: var(--color-bg-el);
+	border-radius: var(--radius);
+	box-shadow: var(--shadow);
+}
+
+.topBlock {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+
+	.logo {
+		img {
+			padding-top: 10px;
+			width: 75px;
+		}
+	}
+
+	.temp {
+		font-size: 65px;
+		font-weight: var(--fw-normal);
+		line-height:1;
+		color: var(--color-primary);
+	}
+
+	.thisDay {
+		font-size: var(--fs-md);
+		font-weight: var(--fw-bold);
+		color: var(--color-text);
+	}
+}
+
+.bottomBlock {
+	display: flex;
+	flex-direction: column;
+	.time,
+	.city {
+		color: var(--color-base);
+		font-size: var(--fs-sm);
+	}
+}
