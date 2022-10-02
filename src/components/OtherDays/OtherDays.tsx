@@ -10,9 +10,8 @@ const daysList = DaysList()
 	return (
 		<>
 			<div className={s.otherDays}>
-				{daysList && daysList.map((item) => (
-					<OtherDaysInfo key={item.dt} item={item} />
-				))}
+				{daysList &&
+					daysList.map(item => <OtherDaysInfo key={item.dt} item={item} />)}
 			</div>
 		</>
 	)

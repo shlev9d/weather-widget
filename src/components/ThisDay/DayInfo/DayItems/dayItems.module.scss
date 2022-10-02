@@ -30,3 +30,12 @@
 		color: var(--color-text);
 	}
 }
+
+@media screen and (max-width: 460px) {
+.item {
+	span{
+		display: none;
+	}
+	
+}
+}

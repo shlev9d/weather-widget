@@ -44,3 +44,9 @@
 		box-shadow: var(--shadow-hover);
 	}
 }
+
+@media screen and (max-width: 460px) {
+.otherDaysInfo {
+	width: 100%;
+}
+}

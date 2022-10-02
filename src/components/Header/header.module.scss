@@ -3,14 +3,21 @@
 .header {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
 	margin-bottom: 20px;
+	gap: 10px;
+}
+
+.leftBlock{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+
 }
 
 .wrapper {
 	display: flex;
 	align-items: center;
-	gap: 15px;
+	gap: 10px;
 }
 
 .logo {
@@ -22,6 +29,7 @@
 .logoTheme {
 	img {
 		width: 30px;
+		margin-top: 7px;
 	}
 }
 
@@ -29,4 +37,20 @@
 	font-weight: var(--fw-bold);
 	font-size: var(--fs-md);
 	color: var(--color-primary);
+}
+
+@media screen and (max-width: 460px) {
+.header {
+	flex-direction: column;	
+}
+.wrapper{
+	justify-content: space-between;
+	width: 67%;
+}
+
+.logoTheme {
+	img {
+		width: 38px;
+	}
+}
 }

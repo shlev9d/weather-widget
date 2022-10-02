@@ -45,3 +45,14 @@
 		font-size: var(--fs-sm);
 	}
 }
+
+@media screen and (max-width: 760px) {
+.day {
+	max-width: 100%;
+}
+}
+@media screen and (max-width: 460px) {
+.bottomBlock {
+	align-items: center;
+}
+}

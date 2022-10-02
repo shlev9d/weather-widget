@@ -17,23 +17,27 @@ const Header = (props: Props) => {
 
 	return (
 		<header className={s.header}>
-			<div className={s.wrapper}>
-				<div className={s.logo}>
-					<AppIcons id='logo' />
+			<div className={s.leftBlock}>
+
+				<div className={s.wrapper}>
+					<div className={s.logo}>
+						<AppIcons id='logo' />
+					</div>
+					<div className={s.title}>weather</div>
 				</div>
-				<div className={s.title}>weather</div>
-			</div>
-			<div className={s.wrapper}>
-				<div
-					className={s.logoTheme}
-					onClick={() => dispath(changeTheme())}
-				>
+				
+				<div className={s.logoTheme} onClick={() => dispath(changeTheme())}>
 					<AppIcons id='changeTheme' />
 				</div>
-				<CustomSelect/>
 			</div>
+
+			<div>
+				<CustomSelect />
+			</div>
+
 		</header>
 	)
+
 }
 
 export default Header
