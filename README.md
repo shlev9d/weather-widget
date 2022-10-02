@@ -2,9 +2,9 @@
 
 demo  [https://shlev9d.github.io/weather-widget/]
 
-## Available Scripts
+## Technology stack
 
-In the project directory, you can run:
+ReactJS, TypeScript, Redux, ReduxToolKit, Axios, React-Select, Scss
 
 ### `npm start`
 
